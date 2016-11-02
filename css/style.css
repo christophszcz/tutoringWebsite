@@ -11,3 +11,27 @@ body{
 .main-title{
   color: #fff;
 }
+
+/* Main Section */
+
+.main-section{
+	min-height: 700px;
+}
+
+/* About Section  */
+
+.about-section{
+	min-height: 700px;
+}
+
+/* Pricing Seciton */
+
+.pricing-section{
+	min-height: 700px;
+}
+
+/* Contact Section */
+
+.contact-section{
+	min-height: 700px;
+}

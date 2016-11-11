@@ -5,11 +5,11 @@
 }
 
 body{
-  background: #000;
+  background: #fff;
 }
 
 .main-title{
-  color: #fff;
+  color: #000;
 }
 
 /* Main Section */
@@ -41,7 +41,7 @@ a.fa:hover, a.fa:active, a.fa:visited{
 }
 
 .copyright{
-  color: #fff
+  color: #000;
 }
 
 .questions{
@@ -56,12 +56,12 @@ a.fa:hover, a.fa:active, a.fa:visited{
 }
 
 .fa-envelope-o, .fa-twitter, .fa-linkedin-square {
-  color: #fff;
+  color: #000;
 }
 
 .social-media{
   font-size: 2.5em;
-  color: #fff;
+  color: #000;
   letter-spacing: 20px;
   text-decoration: none;
 }

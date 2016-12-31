@@ -1,0 +1,22 @@
+{
+  "name": "tutoringwebsite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/christophszcz/tutoringWebsite.git"
+  },
+  "author": "Christoph Szczechowicz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/christophszcz/tutoringWebsite/issues"
+  },
+  "homepage": "https://github.com/christophszcz/tutoringWebsite#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1"
+  }
+}

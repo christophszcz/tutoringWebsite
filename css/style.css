@@ -1,0 +1,9 @@
+/* Entire Page */
+
+* {
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #FDF5E6;
+}

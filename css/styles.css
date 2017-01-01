@@ -1,0 +1,30 @@
+/* Top Navbar */
+
+#top-bar-items{
+	float: right;
+}
+
+.top-text {
+	padding-top: 1.425rem !important;
+  padding-bottom: 1.425rem !important;
+  font-size: 21px;
+  border-right: 2px solid black;
+  padding-right: 10px;
+}
+
+#phone-number {
+	font-size: 40px;
+	color: #FF4500;
+}
+
+/* Main Navbar */
+
+/* Entire Page */
+
+* {
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #FDF5E6;
+}

@@ -19,6 +19,17 @@
 
 /* Main Navbar */
 
+.social{
+	float:right;
+}
+
+.social-item{
+	margin-left: 35px !important;
+}
+
+.main-item {
+	margin-right: 25px;
+}
 
 /* Main Section */
 

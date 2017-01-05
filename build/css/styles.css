@@ -21,10 +21,11 @@
 
 .social{
 	float:right;
+	margin-top: 7px;
 }
 
 .social-item{
-	margin-left: 25px !important;
+	margin-left: 35px !important;
 }
 
 .main-item {
@@ -34,7 +35,6 @@
 /* Main Section */
 
 #long-sheet {
-	top: 480px;
 	color: #000;
 }
 
@@ -44,6 +44,9 @@
   max-height: 500px
 }
 
+.carousel-caption{
+	bottom: 100px;
+}
 /* Entire Page */
 
 * {

@@ -21,11 +21,10 @@
 
 .social{
 	float:right;
-  margin-top: 7px;
 }
 
 .social-item{
-	margin-left: 35px !important;
+	margin-left: 25px !important;
 }
 
 .main-item {
@@ -47,4 +46,31 @@
 
 body{
   background-color: #FDF5E6;
+}
+
+/* Collapsible Nabar */
+
+.navbar-brand {
+  float: none;
+}
+.navbar-nav .nav-item {
+  float: none;
+}
+.navbar-divider,
+.navbar-nav .nav-item + .nav-item,
+.navbar-nav .nav-link + .nav-link {
+  margin-left: 0;
+}
+@media (min-width: 34em) {
+  .navbar-brand {
+    float: left;
+  }
+  .navbar-nav .nav-item {
+    float: left;
+  }
+  .navbar-divider,
+  .navbar-nav .nav-item + .nav-item,
+  .navbar-nav .nav-link + .nav-link {
+    margin-left: 1rem;
+  }
 }

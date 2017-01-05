@@ -7,7 +7,7 @@ module.exports = function (grunt){
 	      dest: 'build/js/scripts.js',
 	    },
 	    css: {
-	      src: ['css/main.css','css/style.css', ],
+	      src: ['css/main.css','css/style.css' ],
 	      dest: 'build/css/styles.css',
 	    },
 	  },
@@ -23,10 +23,22 @@ module.exports = function (grunt){
 		  },
 		},
 
+    browserSync: {
+	    bsFiles: {
+	        src : ['*.html', 'build/css/styles.css', 'build/js/scripts.js']
+	    },
+	    options: {
+	        server: {
+	            baseDir: "./"
+	        },
+	        watchTask: true
+	    }
+    }
+
 	});
 
 	grunt.loadNpmTasks('grunt-contrib-concat');
 	grunt.loadNpmTasks('grunt-contrib-watch');
-	grunt.registerTask('default', ['concat','watch']);
 	grunt.loadNpmTasks('grunt-browser-sync');
+	grunt.registerTask('default', ['browserSync', 'concat','watch']);
 };	

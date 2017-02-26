@@ -89,3 +89,7 @@ body{
 section {
   min-height: 800px;
 }
+
+.contact-section {
+  min-height: 400px;
+}

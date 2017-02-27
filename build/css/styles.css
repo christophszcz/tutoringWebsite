@@ -93,3 +93,9 @@ section {
 .contact-section {
   min-height: 400px;
 }
+
+/* FAQ */
+
+.question {
+  font-weight: bold;
+}
